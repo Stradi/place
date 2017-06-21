@@ -337,7 +337,7 @@ trigger.close = function(){
   trigger.parentElement.classList.remove('sk-open');
   trigger.parentElement.classList.add('sk-close');
   for(var i = 0; i != trigger.childElementCount; ++ i) {
-    trigger.children[i].style.backgroundColor = "greenyellow";
+    trigger.children[i].style.backgroundColor = "#B71C1C";
   }
 }
 
@@ -345,7 +345,7 @@ trigger.open = function(){
   trigger.parentElement.classList.remove('sk-close');
   trigger.parentElement.classList.add('sk-open');
   for(var i = 0; i != trigger.childElementCount; ++ i) {
-    trigger.children[i].style.backgroundColor = "greenyellow";
+    trigger.children[i].style.backgroundColor = "#B71C1C";
   }
 }
 trigger.change = function(){
@@ -359,13 +359,13 @@ trigger.change = function(){
 
 trigger.addEventListener("mouseover", function(event){
   for(var i = 0; i != trigger.childElementCount; ++ i) {
-    trigger.children[i].style.backgroundColor = "lightseagreen";
+    trigger.children[i].style.backgroundColor = "#D32F2F";
   }
 })
 
 trigger.addEventListener("mouseout", function(event){
   for(var i = 0; i != trigger.childElementCount; ++ i) {
-    trigger.children[i].style.backgroundColor = "greenyellow";
+    trigger.children[i].style.backgroundColor = "#B71C1C";
   }
 })
 
