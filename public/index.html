@@ -1,0 +1,123 @@
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <meta name="apple-mobile-web-app-capable" content="no">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css">
+  <link rel="stylesheet" href="/css/canvas.css" type="text/css">
+  <title>Place</title>
+</head>
+
+<body>
+  <div class="click-mask">
+    <p>
+      Putting Pixel..
+    </p>
+  </div>
+  <div class="loading-mask">
+    <p class="loading-text">
+      Loading...
+    </p>
+  </div>
+  <nav class="side-wrapper sk-open">
+    <div class="trigger" >
+      <span class='line top'></span>
+      <span class='line middle'></span>
+      <span class='line bottom'></span>
+    </div>
+    <div class="side-bar">
+      <div class="side-bar-scroll">
+        <img src="/img/pc.png" alt="" class="icon" width="200" height="200">
+        <div class="cl" style="margin-top:0"></div>
+        <div class="preset-color">
+          <p class="preset-color-text">
+            Color Presets
+          </p>
+          <div class="color-panel">
+            <a class="color-block black"></a>
+            <a class="color-block gray"></a>
+            <a class="color-block silver"></a>
+            <a class="color-block white"></a>
+            <a class="color-block maroon"></a>
+            <a class="color-block red"></a>
+            <a class="color-block olive"></a>
+            <a class="color-block yellow"></a>
+            <a class="color-block green"></a>
+            <a class="color-block lime"></a>
+            <a class="color-block teal"></a>
+            <a class="color-block aqua"></a>
+            <a class="color-block navy"></a>
+            <a class="color-block blue"></a>
+            <a class="color-block purple"></a>
+            <a class="color-block fuchsia"></a>
+          </div>
+        </div>
+        <div class="cl"></div>
+        <div class="color-picker-wrapper">
+          <div class="your-color">
+            <p class="your-color-text">
+              Your Color
+            </p>
+            <div class="your-color-block"></div>
+          </div>
+        </div>
+        <div class="cl"></div>
+        <form action="" class="color">
+          <div class="range-wrapper r" id="r">
+            <input class="slider" type="range" min="0" max="255" name="rrange" step="1" value="0">
+            <input class="unselectable" type="number" name="rtext" id="rtext" value="0" disabled="true">
+            <label for="rtext">r</label>
+          </div>
+          <div class="range-wrapper g" id="g">
+            <input class="slider" type="range" min="0" max="255" name="grange" step="1" value="0">
+            <input class="unselectable" type="number" name="gtext" id="gtext" value="0" disabled="true">
+            <label for="gtext">g</label>
+          </div>
+          <div class="range-wrapper b" id="b">
+            <input class="slider" type="range" min="0" max="255" name="brange" step="1" value="0">
+            <input class="unselectable" type="number" name="btext" id="btext" value="0" disabled="true">
+            <label for="btext">b</label>
+          </div>
+        </form>
+        <div class="cl"></div>
+        <div class="copyright">
+          <p class="copyright-text">
+            Copyright (c) 2017 Batin EVIRGEN All Rights Reserved.
+          </p>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <div class="foot-label">
+    <div class="visitors">
+      <p>
+        online:<span class="visitors">0</span>
+      </p>
+    </div>
+    <div class="location">
+      <p class="location">
+        <span class="x-axis">0</span>,<span class="y-axis">0</span>
+      </p>
+    </div>
+  </div>
+
+  <div class="container-fluid wrapper">
+    <div class="painter-operator">
+      <canvas class="buffer"></canvas>
+      <canvas id="painter"></canvas>
+    </div>
+  </div>
+
+  <div class="block">
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.0.3/socket.io.js">
+  </script>
+  <script src="/js/canvas.js">
+  </script>
+  <script src="http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+
+</html>
