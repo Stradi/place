@@ -47,7 +47,7 @@ canvas.buffer{
 
 .side-wrapper{
   user-select: none;
-  background-color:rgb(249,249,249);
+  background-color: #F0F0F0;
   position:fixed;
   width:300px;
   max-width:300px;
@@ -190,11 +190,10 @@ div.your-color-block{
   height:50px;
   margin:0 auto 0 auto;
   background-color:#000;
-  border-radius: 10px 10px;
-  border:4px rgb(30,30,30) solid;
-  transition:background-color 0.5s;
-  -webkit-transition:background-color 0.5s;
-  -moz-transition:background-color 0.5s;
+  border-radius: 2px;
+  transition:background-color 0.25s;
+  -webkit-transition:background-color 0.25s;
+  -moz-transition:background-color 0.25s;
 }
 
 div.click-mask{
@@ -214,9 +213,9 @@ div.click-mask{
   z-index:3;
   cursor:not-allowed;
   display:none;
-  transition:opacity .5s;
-  -webkit-transition:opacity .5s;
-  -moz-transition:opacity .5s;
+  transition:opacity 1s;
+  -webkit-transition:opacity 1s;
+  -moz-transition:opacity 1s;
 }
 
 div.loading-mask{
@@ -235,7 +234,7 @@ div.loading-mask{
 p.loading-text{
   position:relative;
   top:47%;
-  font-family:consolas, Courier New, Courier, monospace, 'Times New Roman', Times, serif;
+  font-family: 'Open Sans', sans-serif;
   user-select:none;
   min-width:275px;
   margin:auto;
@@ -246,7 +245,7 @@ div.click-mask p{
   border-radius:15px;
   background-color:lightgray;
   box-shadow: 0 0 5px black;
-  font-family:consolas, Courier New, Courier, monospace, 'Times New Roman', Times, serif;
+  font-family: 'Open Sans', sans-serif;
   user-select:none;
   min-width:300px;
   margin:0 auto;
@@ -279,17 +278,13 @@ div.location{
   display:inline-block;
   height:40px;
   width:100%;
-  background-color:hsl(9, 40%, 50%);
-  border-top-right-radius: 10px;
-  border-top-left-radius:10px;
-  border-bottom-right-radius:10px;
-  border-bottom-left-radius:10px;
+  background-color: #C0C0C0;
   box-shadow:0px 0px 10px black;
   opacity:0.9;
 }
 
 p.location{
-  font-family: consolas, Courier New, Courier, monospace;
+  font-family: 'Open Sans', sans-serif;
   position:relative;
   text-align:center;
   line-height: 40px;
@@ -300,11 +295,7 @@ p.location{
 div.visitors{
   height:40px;
   width:100%;
-  background-color:hsl(9, 40%, 50%);
-  border-top-right-radius: 10px;
-  border-top-left-radius:10px;
-  border-bottom-right-radius:10px;
-  border-bottom-left-radius:10px;
+  background-color: #C0C0C0;
   box-shadow:0px 0px 10px black;
   opacity:0.9;
   margin-bottom:10px;
@@ -315,13 +306,13 @@ div.visitors p{
   color:white;
   text-align: center;
   font-size: 20px;
-  font-family:consolas, Courier New, Courier, monospace;
+  font-family: 'Open Sans', sans-serif;
 }
 
 p.preset-color-text{
   margin-top: 10px;
   text-align: center;
-  font-family: consolas, 'Times New Roman', Times, serif, Courier New, Courier, monospace;
+  font-family: 'Open Sans', sans-serif;
   font-size:40px;
   font-weight: bold;
 }
@@ -329,7 +320,7 @@ p.preset-color-text{
 p.your-color-text{
   margin-top: 10px;
   text-align: center;
-  font-family: consolas, 'Times New Roman', Times, serif, Courier New, Courier, monospace;
+  font-family: 'Open Sans', sans-serif;
   font-size:30px;
   font-weight: bold;
 }
@@ -354,9 +345,8 @@ div.color-panel{
 }
 
 a.color-block{
-  border-radius: 5px;
-  box-shadow:0px 0px 2px black;
-  border:2px solid black;
+  border-radius: 2px;
+  border:1px solid black;
   margin:5px 1px;
   flex-grow:0;
   -webkit-flex-grow:0;
