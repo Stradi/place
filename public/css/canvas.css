@@ -254,8 +254,8 @@ p.loading-text{
 }
 
 div.click-mask p{
-  border-radius:15px;
-  background-color:lightgray;
+  border-radius:5px;
+  background-color: #C3CFFF;
   box-shadow: 0 0 5px black;
   font-family: 'Open Sans', sans-serif;
   user-select:none;
@@ -263,7 +263,7 @@ div.click-mask p{
   margin:0 auto;
   text-align:center;
   font-size:50px;
-  color:darkmagenta;
+  color: #888EB2;
   opacity:1;
 }
 
