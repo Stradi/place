@@ -1,7 +1,7 @@
 var fs = require("fs");
 var http = require("http");
 var url = require("url");
-var path = "./MySite"
+var path = "./public"
 
 
 /*var buffer = new Buffer(1024 * 1024 * 4);
