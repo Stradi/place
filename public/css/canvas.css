@@ -468,7 +468,7 @@ input[type=range].slider::-webkit-slider-runnable-track {
   height: 21.1px;
   cursor: pointer;
   box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
-  background: #45484c;
+  background: #575A5D;
   border-radius: 0.7px;
   border: 0px solid #000101;
 }
@@ -491,7 +491,7 @@ input[type=range].slider::-moz-range-track {
   height: 21.1px;
   cursor: pointer;
   box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
-  background: #45484c;
+  background: #575A5D;
   border-radius: 0.7px;
   border: 0px solid #000101;
 }
