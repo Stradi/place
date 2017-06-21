@@ -45,12 +45,7 @@ function main(buffer){
 		var url_info = url.parse(request.url);
 		var filename = path + url_info.pathname;
 		if (url_info.path == "/"){
-			if(request.headers.host == "pixelcanvas.cn"){
-				filename += "/demos/canvas.html"
-			}
-			else{
-				filename += "index.html";
-			}
+			filename += "index.html";
 		}
 		fs.readFile(filename, function (err, data) {
 			if (err) {
@@ -130,6 +125,6 @@ function main(buffer){
 		});
 		return [x,y,color];
 	}
-	server.listen(80);
+	server.listen(process.env.PORT);
 
 }
