@@ -1,0 +1,19 @@
+{
+  "name": "place",
+  "version": "1.0.0",
+  "description": "Online pixel app",
+  "engines": {
+    "node": "7.x",
+    "npm": "3.10.x"
+  },
+  "main": "app.js",
+  "dependencies": {
+    "socket.io": "^2.0.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Batin EVIRGEN",
+  "license": "ISC"
+}
