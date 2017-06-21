@@ -345,8 +345,8 @@ div.color-panel{
   flex-wrap:wrap;
   -webkit-flex-wrap:wrap;
   -moz-flex-wrap:wrap;
-  justify-content: space-around;
-  align-content: space-around;
+  justify-content: space-between;
+  align-content: space-between;
   -webkit-justify-content: space-around;
   -webkit-align-content: space-around;
   -moz-justify-content: space-around;
@@ -370,84 +370,68 @@ a.color-block{
   -moz-transition:transform 0.2s;
 }
 
-a.color-block.white{
-  background-color:white;
-}
-
-a.color-block.lightgray{
-  background-color:rgb(205,205,205);
+a.color-block.black{
+  background-color: #000000;
 }
 
 a.color-block.gray{
-  background-color:rgb(136,136,136);
+  background-color: #808080;
 }
 
-a.color-block.darkgray{
-  background-color:rgb(80,80,80);
+a.color-block.silver{
+  background-color: #C0C0C0;
 }
 
-a.color-block.black{
-  background-color:black;
+a.color-block.white{
+  background-color: #FFFFFF;
 }
 
-a.color-block.pink{
-  background-color:rgb(255,167,209);
+a.color-block.maroon{
+  background-color: #800000;
 }
 
 a.color-block.red{
-  background-color:rgb(229,0,0);
+  background-color: #FF0000;
 }
 
-a.color-block.darkred{
-  background-color:rgb(128,0,0);
-}
-
-a.color-block.lightpink{
-  background-color:rgb(255,221,202);
-}
-
-a.color-block.orange{
-  background-color:rgb(229,149,0);
-}
-
-a.color-block.darkorange{
-  background-color:rgb(160,106,66);
+a.color-block.olive{
+  background-color: #808000;
 }
 
 a.color-block.yellow{
-  background-color:rgb(229,217,0);
-}
-
-a.color-block.lightgreen{
-  background-color:rgb(148,224,68);
+  background-color: #FFFF00;
 }
 
 a.color-block.green{
-  background-color:rgb(2,190,1);
+  background-color: #008000;
 }
 
-a.color-block.cyan{
-  background-color:rgb(0,211,221);
+a.color-block.lime{
+  background-color: #00FF00;
 }
 
-a.color-block.lightblue{
-  background-color:rgb(0,131,199);
+a.color-block.teal{
+  background-color: #008080;
+}
+
+a.color-block.aqua{
+  background-color: #00FFFF;
+}
+
+a.color-block.navy{
+  background-color: #000080;
 }
 
 a.color-block.blue{
-  background-color:rgb(0,0,234);
-}
-
-a.color-block.lightpurple{
-  background-color:rgb(207,110,228);
+  background-color: #0000FF;
 }
 
 a.color-block.purple{
-  background-color:rgb(255,0,255);
+  background-color: #800080;
 }
 
-a.color-block.darkpurple{
-  background-color:rgb(130,0,128);
+a.color-block.fuchsia{
+  background-color: #FF00FF;
 }
 
 a.color-block:hover{
