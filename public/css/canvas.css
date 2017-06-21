@@ -444,6 +444,17 @@ a.color-block:active{
   transform:scale(1);
 }
 
+div.copyright {
+  margin: 10px;
+  position: absolute;
+  bottom: 0;
+}
+
+p.copyright-text {
+  color: black;
+  font-size: 10px;
+}
+
 input[type=range].slider {
   -webkit-appearance: none;
   width: 100%;
