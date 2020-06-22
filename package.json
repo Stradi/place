@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "Online pixel app",
   "engines": {
-    "node": "7.6.0",
-    "npm": "3.10.10"
+    "node": "13.7.0",
+    "npm": "6.11.3"
   },
   "main": "app.js",
   "dependencies": {
