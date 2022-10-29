@@ -8,7 +8,7 @@
   },
   "main": "app.js",
   "dependencies": {
-    "socket.io": "^2.0.3"
+    "socket.io": "^2.5.0"
   },
   "devDependencies": {},
   "scripts": {
